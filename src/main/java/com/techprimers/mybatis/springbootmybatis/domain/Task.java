@@ -1,9 +1,18 @@
-package com.techprimers.mybatis.springbootmybatis.model;
+package com.techprimers.mybatis.springbootmybatis.domain;
 
-public class Users {
+public class Task {
 
     private String name;
-    private Long salary;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    private String status;
     private Integer id;
 
     public String getName() {
@@ -12,14 +21,6 @@ public class Users {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Long getSalary() {
-        return salary;
-    }
-
-    public void setSalary(Long salary) {
-        this.salary = salary;
     }
 
     public Integer getId() {

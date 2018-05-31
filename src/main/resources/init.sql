@@ -1,4 +1,4 @@
-CREATE TABLE users
+CREATE TABLE task
 (
     id int(11) NOT NULL AUTO_INCREMENT,
     name varchar(100) NOT NULL,
